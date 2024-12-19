@@ -92,6 +92,7 @@ function add_block(POSITION){
 
 
 document.onmouseup = function(e){
+  console.log(111)
   setTimeout(function(){
     if (
       USED[1] == 0 && USED[2] == 1 && USED[3] == 2 && USED[4] == 3 &&
@@ -297,7 +298,7 @@ myMove(CURRENT)
 
 
 
-                      //proverochnaya funckciya
+                      //checking whoknowswhat function
                       let current_id = CURRENT.getAttribute('id')
                       let current_position = USED[current_id]
                       let next_position = current_position + 4
